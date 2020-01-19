@@ -1,0 +1,6 @@
+The folder com.unity.ads@2.0.8 
+was causing error while bulding the apk
+and that happened when we imported the Unity Monitizer assets which causes dublicated files ends with error 
+which says "Unable to convert classes into dex format"
+this folder found in this path "C:\Users\Zaherha\Documents\Unity\ClimbyBall\Library\PackageCache"
+which is inside the packeges folder and after deleting it from there the error was gone.
